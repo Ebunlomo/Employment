@@ -34,7 +34,26 @@
 		background-image: url("https://github.com/Ebunlomo/Employment/commit/3a68a6e5e75685238b93993a14619c10b8350612/background.png");
 		background-color: white
 	}
+
+	img.England {
+		height: 20%;
+		width: 20%;		
+	}
+	img.Wales {
+		height: 20%;
+		width: 20%;
+	}
+	img.Scotland{
+		height: 20%;
+		width: 20%;
+	}
+	img.NorthernIreland{
+		height: 20%;
+		width: 20%;
+	}
+
 		</style>
+	}
     </head>
     <body>
     <header>
@@ -59,6 +78,12 @@
     Table of Tribunal Fees Since July 2013
     </p2>
     </article>
+    <p3>
+    	<img class="England" src="https://maproom.net/wp-content/uploads/01-England-Outline.jpg">
+    	<img class= "Wales" src="https://maproom.net/wp-content/uploads/01-Wales-Outline.jpg">
+    	<img class= "Scotland" src="https://maproom.net/wp-content/uploads/03-scotland-outline.png">
+    	<img class="NorthernIreland" src="https://maproom.net/wp-content/uploads/01-Ireland-Outline.jpg">
+    </p3>
 <table class="table table-hover">
 <table class="table table-bordered">
 			<thead>
