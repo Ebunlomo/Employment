@@ -36,20 +36,24 @@
 	}
 
 	img.England {
-		height: 20%;
-		width: 20%;		
+		height: 300px;
+		width: 300px;
+		padding: 0px 15px 0px 15px;		
 	}
 	img.Wales {
-		height: 20%;
-		width: 20%;
+		height: 300px;
+		width: 300px;
+		padding: 0px 15px 0px 0px;
 	}
 	img.Scotland{
-		height: 20%;
-		width: 20%;
+		height: 300px;
+		width: 300px;
+		padding: 0px 15px 0px 0px;
 	}
 	img.NorthernIreland{
-		height: 20%;
-		width: 20%;
+		height: 300px;
+		width: 300px;
+		padding: 0px 15px 0px 0px;
 	}
 
 		</style>
@@ -79,10 +83,18 @@
     </p2>
     </article>
     <p3>
+    	<a href="#">
     	<img class="England" src="https://maproom.net/wp-content/uploads/01-England-Outline.jpg">
+    	</a>
+    	<a href="#">
     	<img class= "Wales" src="https://maproom.net/wp-content/uploads/01-Wales-Outline.jpg">
+    	</a>
+    	<a href="#">
     	<img class= "Scotland" src="https://maproom.net/wp-content/uploads/03-scotland-outline.png">
+    	</a>
+    	<a href="#">
     	<img class="NorthernIreland" src="https://maproom.net/wp-content/uploads/01-Ireland-Outline.jpg">
+    	</a>
     </p3>
 <table class="table table-hover">
 <table class="table table-bordered">
