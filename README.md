@@ -2,6 +2,7 @@
 <html>
     <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Employment Law Basics</title>
         <style>
         header{
@@ -10,15 +11,16 @@
         }
         h1 {
         	color: rgb(91, 19, 87);
-			font-size: 40pt;
+			font-size: 50pt;
 	}
 	ul {
 		padding: 10px;
 		background: rgb(123, 123, 123);
+		font-size: 16pt;
 	}
 	li{
 		display: inline;
-		padding: 0px 50px 0px 50px;
+		padding: 0px 45px 0px 45px;
 	}
 	a {
 		color: rgb(91, 19, 87);
@@ -31,37 +33,22 @@
   }
 	body {
 		font-family: Helvetica;
-		background-image: url("https://github.com/Ebunlomo/Employment/commit/3a68a6e5e75685238b93993a14619c10b8350612/background.png");
 		background-color: white
 	}
-
-	img.England {
-		height: 300px;
-		width: 300px;
-		padding: 0px 15px 0px 15px;		
+	header.Latest{
+		color: rgb(91, 19, 87);
+		font-size: 20pt;
 	}
-	img.Wales {
-		height: 300px;
-		width: 300px;
-		padding: 0px 15px 0px 0px;
+	img.media-object{
+		height: 75px;
+		width: 75px;
 	}
-	img.Scotland{
-		height: 300px;
-		width: 300px;
-		padding: 0px 15px 0px 0px;
-	}
-	img.NorthernIreland{
-		height: 300px;
-		width: 300px;
-		padding: 0px 15px 0px 0px;
-	}
-
 		</style>
 	}
     </head>
     <body>
     <header>
-    <h1>Employment Law Basics</h1>
+    <h1> <strong> Employment Law Basics</strong> </h1>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Topics</a></li>
@@ -72,32 +59,82 @@
       <li><a href="#">Index</a></li>
     </ul>
     </header>
+    <div class="panel panel-info">
+  		<div class="panel-heading">
+    		<h3 class="panel-title">Welcome</h3>
+  	</div>
+  	<div class="panel-body">
+    If you need an idea of the basics of Employment Law, then look no further as this site will give you everything that you need. From <abbr title="Transfer of Undertakings and the Protection of Employment" class="initialism">TUPE</abbr> to Equality, this site has it all. By no means will this site substitute for reading cases and articles, what it will do is introduce the topics and explain and key conecpts that are difficult to come to grips with.
+  	</div>
+</div>
+<div class="media">
+  		<div class="media-left">
+    		<a href="#">
+      		<img class="media-object" src="http://images.clipartpanda.com/pregnancy-clipart-l_172.png" alt="Pregnancy">
+    		</a>
+  	</div>
+  	<div class="media-body">
+    	<h4 class="media-heading">Pregnancy</h4>
+    	<p>
+    		The law as it relates to pregnancy is very convoluted; it includes discrimination, maternity leave, paternity leave and many other legal issues that come to the forefront during what should be a happy time.
+    	</p>
+  	</div>
+	</div>
+	<button class="btn btn-info" type="submit">Pregnancy Law</button>
+    <div class="media">
+  		<div class="media-left">
+    		<a href="#">
+      		<img class="media-object" src="https://pbs.twimg.com/profile_images/485109220711604225/tjLqhK2y.jpeg" alt="Disability">
+    		</a>
+  	</div>
+  	<div class="media-body">
+    	<h4 class="media-heading">Disability</h4>
+    	<p>
+    		This area of Employment law is mainly focused on discrimination, however within that there is legislation on reasonable adjustments which is incredibly important.
+    	</p>
+  	</div>
+	</div>
+	<button class="btn btn-info" type="submit">Disability Law</button>
     <article>
-    <p1>
-    If you need an idea of the basics of Employment Law, then look no further as this site will give you everything that you need.
-    </p1>
+    	<p5>
+    	Click on an image to be taken directly to that country's index of employment legislation
+    	</p5>
     </article>
-    <article>
+    <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://maproom.net/wp-content/uploads/01-England-Outline.jpg" alt="Map of England">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://maproom.net/wp-content/uploads/01-Wales-Outline.jpg" alt="Map of Wales">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://maproom.net/wp-content/uploads/03-scotland-outline.png" alt="Map of Scotland">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://maproom.net/wp-content/uploads/01-Ireland-Outline.jpg" alt="Map of Northern Ireland">
+    </a>
+  </div>
+	</div>
+    <div class="jumbotron">
+  		<h1>Latest Article on Tribunal Fees</h1>
+  		<p>As can be seen from the table below, Employment Tribunal fees are currently very high. This is having a disproportionate impact on the poorest and the figures show that the umber of claims being made has gone down ince the fee increase came into force. This could be said to be a barrier to justice as access to courts has been limited or even denied to those who cannot afford it.</p>
+  		<p><a class="btn btn-primary btn-lg" href="#" role="button">Read on...</a></p>
+	</div>
     <p2>
     Table of Tribunal Fees Since July 2013
     </p2>
     </article>
-    <p3>
-    	<a href="#">
-    	<img class="England" src="https://maproom.net/wp-content/uploads/01-England-Outline.jpg">
-    	</a>
-    	<a href="#">
-    	<img class= "Wales" src="https://maproom.net/wp-content/uploads/01-Wales-Outline.jpg">
-    	</a>
-    	<a href="#">
-    	<img class= "Scotland" src="https://maproom.net/wp-content/uploads/03-scotland-outline.png">
-    	</a>
-    	<a href="#">
-    	<img class="NorthernIreland" src="https://maproom.net/wp-content/uploads/01-Ireland-Outline.jpg">
-    	</a>
-    </p3>
 <table class="table table-hover">
 <table class="table table-bordered">
+	<table class="table table-hover">
+	<table class="table table-bordered">
 			<thead>
 			<tr>
 				<th>Complaint</th>
@@ -120,5 +157,5 @@
 				</tr>
 			</tbody>
 		</table>
-    </body>
+</body>
 </html>
