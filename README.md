@@ -7,48 +7,62 @@
         <style>
         header{
         	text-align: center;
-        	font-family: Helvetica;
+        	font-family: helvetica;
+          background: url(https://s-media-cache-ak0.pinimg.com/originals/11/93/39/11933904bf49c4681d643910ac14895d.jpg);
+
         }
         h1 {
-        	color: rgb(91, 19, 87);
-			font-size: 50pt;
-	}
-	ul {
-		padding: 10px;
-		background: rgb(123, 123, 123);
-		font-size: 16pt;
-	}
-	li{
-		display: inline;
-		padding: 0px 45px 0px 45px;
-	}
-	a {
-		color: rgb(91, 19, 87);
-		font-weight: bold;
-	}
-	 article {
-      max-width: 5000px;
-      padding: 20px;
-      margin: 10px;
-  }
-	body {
-		font-family: Helvetica;
-		background-color: white
-	}
-	header.Latest{
-		color: rgb(91, 19, 87);
-		font-size: 20pt;
-	}
-	img.media-object{
-		height: 75px;
-		width: 75px;
-	}
+        	color: rgb(0, 32, 128);
+			    font-size: 50pt;
+        }
+	      ul {
+          padding: 10px;
+		      background: rgb(0, 0, 0);
+		      font-size: 16pt;
+        }
+	       li{
+          display: inline;
+          padding: 0px 45px 0px 45px;
+        }
+	       a {
+          color: rgb(128, 128, 255);
+		      font-weight: bold;
+        }
+	       article {
+          max-width: 5000px;
+          padding: 20px;
+          margin: 10px;
+        }
+	       body {
+          font-family: Helvetica;
+		      background-color: white
+        }
+	       header.Latest{
+          color: rgb(91, 19, 87);
+		      font-size: 20pt;
+        }
+	       img.media-object{
+          height: 75px;
+	      	width: 75px;
+        }
+        p5 {
+          font-size: 16pt;
+          color: rgb(0, 32, 128);
+        }
+        div.row {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        table {
+          font-size: 15pt;
+          font-weight: bold;
+        }
 		</style>
-	}
     </head>
-    <body>
+      <body>
     <header>
-    <h1> <strong> Employment Law Basics</strong> </h1>
+    <h1> <strong> Employment Law Basics</strong>
+    </h1>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Topics</a></li>
@@ -95,33 +109,6 @@
   	</div>
 	</div>
 	<button class="btn btn-info" type="submit">Disability Law</button>
-    <article>
-    	<p5>
-    	Click on an image to be taken directly to that country's index of employment legislation
-    	</p5>
-    </article>
-    <div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="https://maproom.net/wp-content/uploads/01-England-Outline.jpg" alt="Map of England">
-    </a>
-  </div>
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="https://maproom.net/wp-content/uploads/01-Wales-Outline.jpg" alt="Map of Wales">
-    </a>
-  </div>
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="https://maproom.net/wp-content/uploads/03-scotland-outline.png" alt="Map of Scotland">
-    </a>
-  </div>
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="https://maproom.net/wp-content/uploads/01-Ireland-Outline.jpg" alt="Map of Northern Ireland">
-    </a>
-  </div>
-	</div>
     <div class="jumbotron">
   		<h1>Latest Article on Tribunal Fees</h1>
   		<p>As can be seen from the table below, Employment Tribunal fees are currently very high. This is having a disproportionate impact on the poorest and the figures show that the umber of claims being made has gone down ince the fee increase came into force. This could be said to be a barrier to justice as access to courts has been limited or even denied to those who cannot afford it.</p>
@@ -157,5 +144,28 @@
 				</tr>
 			</tbody>
 		</table>
+     <article>
+      <p5>
+      <strong> Click on an image to be taken directly to that country's index of employment legislation </strong>
+      </p5>
+    </article>
+    <div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://maproom.net/wp-content/uploads/01-England-Outline.jpg" alt="Map of England">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://maproom.net/wp-content/uploads/01-Wales-Outline.jpg" alt="Map of Wales">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://maproom.net/wp-content/uploads/03-scotland-outline.png" alt="Map of Scotland">
+    </a>
+  </div>
+  </div>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1kwwUNJHCNLh6wEExKBTL43164ckREx8w_6yE9kd5Uit4xA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </body>
 </html>
